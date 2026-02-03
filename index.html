@@ -2,50 +2,71 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <title>Логістичні послуги</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Логістика</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <h1>Логістичні послуги</h1>
-  <p>Швидка та надійна доставка по Україні та Європі</p>
+  <div class="container">
+    <h1>Логістичні Послуги</h1>
+    <nav>
+      <a href="#home">Головна</a>
+      <a href="#services">Напрямки</a>
+      <a href="#contacts">Контакти</a>
+    </nav>
+  </div>
 </header>
 
-<section>
-  <h2>Про доставку</h2>
-  <p>
-    Здійснюємо вантажні перевезення від 1 кг до повних фур.
-    Працюємо з бізнесом та приватними клієнтами.
-  </p>
+<section id="home" class="hero">
+  <div class="container">
+    <h2>Швидка та надійна доставка</h2>
+    <p>Вантажі по Україні та Європі. Працюємо з бізнесом та приватними клієнтами.</p>
+  </div>
 </section>
 
-<section>
-  <h2>Напрямки</h2>
-  <ul>
-    <li>Україна</li>
-    <li>Польща</li>
-    <li>Німеччина</li>
-    <li>Чехія</li>
-  </ul>
+<section id="services" class="services">
+  <div class="container">
+    <h2>Напрямки доставки</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Україна</h3>
+        <p>1–3 дні по всій території країни</p>
+      </div>
+      <div class="card">
+        <h3>Польща</h3>
+        <p>3–5 днів, безпечна доставка</p>
+      </div>
+      <div class="card">
+        <h3>Німеччина</h3>
+        <p>4–7 днів, повний супровід</p>
+      </div>
+      <div class="card">
+        <h3>Чехія</h3>
+        <p>3–6 днів, надійно та швидко</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section>
-  <h2>Терміни</h2>
-  <p>По Україні: 1–3 дні<br>Європа: 3–7 днів</p>
-</section>
-
-<section>
-  <h2>Контакти</h2>
-  <p>
-    📞 Телефон: +38 (0XX) XXX-XX-XX<br>
-    💬 Telegram: @username<br>
-    ✉️ Email: example@email.com
-  </p>
+<section id="contacts" class="contacts">
+  <div class="container">
+    <h2>Контакти</h2>
+    <p>📞 Телефон: <a href="tel:+380XXXXXXXXX">+38 (0XX) XXX-XX-XX</a></p>
+    <p>💬 Telegram: <a href="https://t.me/username" target="_blank">@username</a></p>
+    <p>✉️ Email: <a href="mailto:example@email.com">example@email.com</a></p>
+    <div class="buttons">
+      <a href="https://t.me/username" target="_blank" class="btn">Написати в Telegram</a>
+      <a href="tel:+380XXXXXXXXX" class="btn">Подзвонити</a>
+    </div>
+  </div>
 </section>
 
 <footer>
-  <p>© 2026 Логістика</p>
+  <div class="container">
+    <p>© 2026 Логістика</p>
+  </div>
 </footer>
 
 </body>
